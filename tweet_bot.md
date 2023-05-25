@@ -18,7 +18,8 @@ This guide will walk you through the process of creating a simple Twitter bot us
 ```
 
 ### 2. Install the required libraries
-# Open a terminal on your Raspberry Pi and run the following command to install the Tweepy library:
+
+Open a terminal on your Raspberry Pi and run the following command to install the Tweepy library:
 pip install tweepy
 
 
