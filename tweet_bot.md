@@ -15,6 +15,7 @@ This guide will walk you through the process of creating a simple Twitter bot us
 ```shell
 # Visit the Twitter Developer portal (developer.twitter.com) and sign up for a Twitter Developer account.
 # Create a new Twitter app and generate the necessary API keys and access tokens.
+```
 
 ### 2. Install the required libraries
 # Open a terminal on your Raspberry Pi and run the following command to install the Tweepy library:
