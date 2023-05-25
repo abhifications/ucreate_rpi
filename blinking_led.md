@@ -19,7 +19,24 @@ Python comes pre-installed on most versions of the Raspberry Pi OS. You can chec
 ```bash
 python3 --version
 ```
+```bash
+sudo apt update
 
+```
+```bash
+sudo apt install python3
+
+```
+```bash
+sudo apt install python3-pip
+
+```
+
+## Create your blink code
+
+1. **Name your python file "blink.py"
+
+2. **Enter the following code**
 
 ```python
 
@@ -39,4 +56,15 @@ while True:
     GPIO.output(18, GPIO.LOW) # LED off
     time.sleep(1) # delay for 1 second
 ```
+4. **Save your python script and run it using the following command:**
+
+```python
+python3 blink.py
+```
+
+## Setting up the circuit
+1. ** Connect the longer leg of the LED (the anode) to one end of the resistor.**
+2. **Connect the other end of the resistor to GPIO pin 18 on the Raspberry Pi.**
+3. **Connect the shorter leg of the LED (the cathode) to a GND pin on the Raspberry Pi.**
+
 
