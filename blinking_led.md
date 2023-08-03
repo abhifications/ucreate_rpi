@@ -46,8 +46,8 @@ import time
 # Use the Broadcom SOC channel
 GPIO.setmode(GPIO.BCM)
 
-# Set up GPIO 18 as an output
-GPIO.setup(18, GPIO.OUT)
+# Set up GPIO 7 as an output
+GPIO.setup(7, GPIO.OUT)
 
 # Blink the LED
 while True:
