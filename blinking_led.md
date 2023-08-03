@@ -51,9 +51,9 @@ GPIO.setup(18, GPIO.OUT)
 
 # Blink the LED
 while True:
-    GPIO.output(18, GPIO.HIGH) # LED on
+    GPIO.output(7, GPIO.HIGH) # LED on
     time.sleep(1) # delay for 1 second
-    GPIO.output(18, GPIO.LOW) # LED off
+    GPIO.output(7, GPIO.LOW) # LED off
     time.sleep(1) # delay for 1 second
 ```
 4. **Save your python script and run it using the following command:**
